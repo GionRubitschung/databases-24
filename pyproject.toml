@@ -2,7 +2,7 @@
 name = "databases-24"
 version = "0.1.0"
 description = ""
-authors = ["Gion Rubitschung <gionrubi@proton.me>"]
+authors = ["Gion Rubitschung <gionrubi@proton.me>", "Luis Züttel"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,6 +10,7 @@ python = "^3.12"
 ipython-sql = "^0.5.0"
 ipykernel = "^6.29.2"
 ipython = "^8.21.0"
+pandas = "^2.2.0"
 
 
 [build-system]
