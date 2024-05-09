@@ -7,8 +7,13 @@ import javax.persistence.ManyToOne;
 public class Instructor {
     @Id
     private Integer id;
+
     private String name;
-	private String dept_name;
+
+    @ManyToOne
+    @JoinColumn(name = "dept_name")
+    private Department department;
+
 	private float salary;
 
     public Instructor() {

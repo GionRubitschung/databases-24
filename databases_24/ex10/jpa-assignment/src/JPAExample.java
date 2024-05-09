@@ -13,16 +13,18 @@ public class JPAExample {
                 Persistence.createEntityManagerFactory("university");
         EntityManager em = factory.createEntityManager();
 
-        TypedQuery<Instructor> q1 =
-                em.createQuery("SELECT e FROM Instructor e", Instructor.class);
-        List<Instructor> instructorList = q1.getResultList();
+        TypedQuery<Instructor> q1 = em.createQuery("SELECT e FROM Department e", Department.class);
+        List<Department> departments = q1.getResultList();
 
-        for (Instructor instructor : instructorList) {
-            System.out.println(instructor);
+        for (Department department : departments) {
+            System.out.println(department);
+            List<Instructor> instructors = department.getInstructors();
+            for (Instructor instructor : instructors) {
+                System.out.println(instructor);
+            }
         }
 
         em.close();
         factory.close();
     }
-
 }
