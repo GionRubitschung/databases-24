@@ -18,7 +18,7 @@ class JdbcExample {
         // establish connection and fetch and print some data
         try (Connection conn =
                      DriverManager.getConnection(
-                             "jdbc:sqlite:../../../../sqlite-dbs/university.db")) {
+                             "jdbc:sqlite:../../../data/university.db")) {
             try (Statement stmt = conn.createStatement()) {
                 ResultSet rs = stmt.executeQuery("select * from instructor");
                 while (rs.next()) {
