@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="eclipselink-2.6.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink-2.6.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence_2.1.1.v201509150925.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

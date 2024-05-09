@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jdbc-assignment/jdbc-assignment.iml" filepath="$PROJECT_DIR$/jdbc-assignment/jdbc-assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-solution/jdbc-solution.iml" filepath="$PROJECT_DIR$/jdbc-solution/jdbc-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-assignment/jpa-assignment.iml" filepath="$PROJECT_DIR$/jpa-assignment/jpa-assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-solution/jpa-solution.iml" filepath="$PROJECT_DIR$/jpa-solution/jpa-solution.iml" />
+    </modules>
+  </component>
+</project>
